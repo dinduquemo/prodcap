@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3e2600;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.contenedor-panel {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.boton-panel {
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #3e2600;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.boton-panel:hover {
+  background-color: #5a3b08;
+}
+/* Estilos responsive generales */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+
+  .boton,
+  .boton-secundario {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  input, textarea, select {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
